@@ -1,39 +1,48 @@
-# 🧾 Aryaputhran GS — Developer Resume
+# 🧾 Aryaputhran GS — Developer Portfolio
 
-Welcome to my **resume-as-code** repo. This is a living, HTML-based résumé crafted by hand (and caffeine), built to showcase my work as a backend-heavy full-stack engineer.
+Welcome to my personal portfolio site — a handcrafted, dev-mode résumé built with HTML, CSS, JavaScript, and zero frameworks. This isn't just a CV — it's a project in itself.
 
-## 🚀 Live Preview
+## 🔗 Live Site
 
-🔗 [View Resume in Action](https://gsaryaputhran.github.io/CV/)
+[👉 Visit Portfolio](https://gsaryaputhran.github.io/CV)
 
-> Built using HTML + Fira Code + custom dark mode. No frameworks. Pure dev energy ⚡
-
----
-
-## 👨‍💻 Tech Stack
-
-- Backend: `.NET Core`, `Web API`, `SQL Server`
-- Frontend: `Angular`, `HTML5`, `CSS3`
-- DevOps: `Azure`, `Docker`, `GitLab CI`
-- Patterns: `CQRS`, `Event-Driven`, `Clean Architecture`
+> Styled in dark mode with Fira Code font. Designed to feel like a code editor. Because why not?
 
 ---
 
-## 🧠 Highlights
+## 🧠 About
 
-- Architected PCI-compliant card workflows (+26% revenue)
-- Designed dynamic payment links (+11% MRR)
-- Built CSPay from scratch — CareStack’s top product
-- Still think CQRS is cool 💡
+I'm a full-stack engineer with a strong backend focus — building scalable systems, clean APIs, and distributed architectures. Passionate about performance, event-driven design, and developer experience.
+
+Currently working as a **Senior Engineer L2** at **Controlqore**.
+
+---
+
+## 🚀 Featured Projects
+
+> 🔒 Note: While I led the architecture of systems like the PCI-compliant credit card workflow at Controlqore, all representations here are generalizations — no proprietary diagrams or confidential flows are shared.
+
+- **PCI Credit Card Workflow**: Engineered a secure credit card system with Corpay — increased revenue by 26%
+- **Payment Link Platform**: Designed a link-based payment system — led to 11% MRR growth
+- **CSPay @ CareStack**: Built CareStack’s top revenue-generating product from scratch
+
+---
+
+## 🛠 Tech Stack
+
+- **Backend:** .NET Core, C#, SQL Server, Web API
+- **Frontend:** Angular, TypeScript, HTML/CSS
+- **Cloud & DevOps:** Azure, Docker, GitLab CI
+- **Practices:** CQRS, Event-Driven Design, Clean Architecture
 
 ---
 
 ## 📬 Contact
 
-📍 Kerala, India  
-📧 [aryaputhrangs@gmail.com](mailto:aryaputhrangs@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/aryaputhran)
+- 📧 [aryaputhrangs@gmail.com](mailto:aryaputhrangs@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/aryaputhran)
+- 💻 [GitHub](https://github.com/GSARYAPUTHRAN)
 
 ---
 
-> This repo is meant to be a developer portfolio alternative — built for recruiters, devs, and hiring managers who prefer to read code over PDFs.
+> ⚙️ This repo reflects my work ethic, code style, and love for building things from the ground up. Feel free to fork or reach out for collab.
