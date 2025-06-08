@@ -4,7 +4,7 @@ Welcome to my personal portfolio site — a handcrafted, dev-mode résumé built
 
 ## 🔗 Live Site
 
-[👉 Visit Portfolio](https://gsaryaputhran.github.io/CV)
+[👉 Visit Portfolio](https://gsaryaputhran.github.io/website)
 
 > Styled in dark mode with Fira Code font. Designed to feel like a code editor. Because why not?
 
