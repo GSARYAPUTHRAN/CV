@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aryaputhran GS | Dev Resume</title>
+  <title>Aryaputhran GS | Developer Portfolio</title>
   <style>
     body {
-      font-family: 'Fira Code', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0e1117;
-      color: #d1d5db;
+      font-family: 'Fira Code', monospace;
+      background-color: #0d1117;
+      color: #c9d1d9;
       padding: 2rem;
       line-height: 1.7;
     }
@@ -19,115 +19,119 @@
     h1, h2, h3 {
       color: #79c0ff;
     }
-    section {
-      margin-bottom: 2rem;
-    }
     .title {
-      font-size: 2.2rem;
-      font-weight: 700;
+      font-size: 2.5rem;
       color: #f0f6fc;
+      margin-bottom: 0.5rem;
     }
-    .contact-info {
-      font-size: 0.95rem;
-      margin-bottom: 1.5rem;
+    .subtitle {
+      color: #8b949e;
+      font-size: 1rem;
+      margin-bottom: 1rem;
     }
-    ul {
-      padding-left: 1.2rem;
+    .section {
+      margin-bottom: 2.5rem;
     }
-    .skills-grid {
+    .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 1rem;
-      font-family: 'Fira Code', monospace;
     }
-    body::after {
-      content: '// Powered by Aryaputhran :: Developer Mode';
-      display: block;
-      margin-top: 3rem;
+    .project, .card {
+      background-color: #161b22;
+      padding: 1rem;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+    }
+    footer {
+      margin-top: 4rem;
       font-size: 0.8rem;
-      color: #4b5563;
       text-align: center;
+      color: #8b949e;
+    }
+    .console-text {
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #58a6ff;
     }
   </style>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
 </head>
 <body>
   <h1 class="title">Aryaputhran GS</h1>
-  <p class="contact-info">
-    📍 Thiruvananthapuram, Kerala, India <br />
-    📞 +91-9567498755 <br />
-    📧 <a href="mailto:aryaputhrangs@gmail.com">aryaputhrangs@gmail.com</a><br />
-    🔗 <a href="https://www.linkedin.com/in/aryaputhran" target="_blank">LinkedIn</a>
-  </p>
+  <p class="subtitle">Lead Engineer • .NET Specialist • System Architect • Code Artisan</p>
 
-  <section>
-    <h2>🧠 Professional Summary</h2>
+  <div class="section">
+    <p class="console-text" id="console"></p>
+  </div>
+
+  <div class="section">
+    <h2>👨‍💻 About Me</h2>
     <p>
-      Backend-heavy full stack engineer with 5+ years of experience crafting resilient systems in .NET Core, Azure, and Docker. Obsessed with CQRS, microservices, clean architecture, and meaningful abstractions. Architected PCI-compliant payment solutions and high-traffic workflows that actually move the needle.
+      I'm a developer who loves writing clean code, building scalable backends, and solving problems that make systems better. Currently working as a Lead Engineer at Controlqore, I'm passionate about distributed systems, event-driven design, and performance engineering.
     </p>
-  </section>
+  </div>
 
-  <section>
-    <h2>🛠 Experience Logs</h2>
-    <h3>Senior Engineer L2 @ Controlqore</h3>
-    <p><em>Feb 2023 – Present | Kerala, IN</em></p>
-    <ul>
-      <li>Refactored monoliths into containerized microservices using CQRS + event-driven architecture.</li>
-      <li>Deployed a Corpay-integrated credit card system — 26% revenue bump. 🚀</li>
-      <li>Built a dynamic payment link flow — unlocked 11% more business.</li>
-      <li>Interfaced with Stripe, Forward, Procore APIs. Payments at scale.</li>
-    </ul>
-
-    <h3>Software Engineer @ CareStack™</h3>
-    <p><em>Sep 2019 – Oct 2022</em></p>
-    <ul>
-      <li>Created CSPay — became the company’s revenue beast 💰</li>
-      <li>Optimized legacy SQL and .NET APIs — 60% faster queries.</li>
-      <li>Payment integrations: Apex, Stax, BluePay.</li>
-    </ul>
-
-    <h3>Android Dev Intern @ White Oval</h3>
-    <p><em>Jun 2018 – Jul 2018</em></p>
-    <ul>
-      <li>Built "Smart Manage" – an apartment management system, back when I thought Java was cool.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>📚 Education</h2>
-    <p>B.Tech – Computer Science @ MBCET | 2015–2019 | GPA: 7.71</p>
-  </section>
-
-  <section>
-    <h2>🧩 Tech Stack</h2>
-    <div class="skills-grid">
-      <div><strong>Backend</strong>: .NET Core, Web API, SQL Server, C#</div>
-      <div><strong>Frontend</strong>: Angular, HTML5, CSS3, JavaScript</div>
-      <div><strong>DevOps</strong>: Azure, Docker, GitLab CI</div>
-      <div><strong>Tools</strong>: Visual Studio, JIRA, MySQL Workbench</div>
-      <div><strong>Extras</strong>: CQRS, Event Bus, System Design, Agile, PCI Compliance</div>
+  <div class="section">
+    <h2>🚀 Projects</h2>
+    <div class="grid">
+      <div class="project">
+        <h3>PCI Credit Card Workflow</h3>
+        <p>Designed secure card processing with Corpay; increased revenue by 26%.</p>
+      </div>
+      <div class="project">
+        <h3>Payment Link Platform</h3>
+        <p>Built scalable payment flow for enterprises, driving 11% MRR uplift.</p>
+      </div>
+      <div class="project">
+        <h3>CSPay @ CareStack</h3>
+        <p>Engineered from scratch; became the company’s highest grossing product.</p>
+      </div>
     </div>
-  </section>
+  </div>
 
-  <section>
-    <h2>🏆 Achievements</h2>
-    <ul>
-      <li>Launched PCI-grade card processing system → +26% 💸</li>
-      <li>Enabled link-based payment acceptance → +11% MRR</li>
-      <li>Built and scaled CSPay from scratch → #1 product at CareStack</li>
-      <li>Cut SQL latency in half by query refactoring</li>
-      <li>Won CSI Coding Competition (1st Place 🥇)</li>
-    </ul>
-  </section>
+  <div class="section">
+    <h2>🧰 Tech Stack</h2>
+    <div class="grid">
+      <div class="card"><strong>Backend:</strong> .NET Core, C#, SQL Server, Web API</div>
+      <div class="card"><strong>Frontend:</strong> Angular, TypeScript, HTML/CSS</div>
+      <div class="card"><strong>Cloud & DevOps:</strong> Azure, Docker, GitLab CI</div>
+      <div class="card"><strong>Practices:</strong> CQRS, Event-Driven Design, Clean Architecture</div>
+    </div>
+  </div>
 
-  <section>
-    <h2>🎮 Side Quests</h2>
-    <p>Motorbiking, FPS gaming, photography, code tinkering</p>
-  </section>
+  <div class="section">
+    <h2>📬 Contact</h2>
+    <p>
+      📧 <a href="mailto:aryaputhrangs@gmail.com">aryaputhrangs@gmail.com</a><br>
+      💼 <a href="https://www.linkedin.com/in/aryaputhran" target="_blank">LinkedIn</a><br>
+      💻 <a href="https://github.com/GSARYAPUTHRAN" target="_blank">GitHub</a>
+    </p>
+  </div>
 
-  <section>
-    <h2>🌐 Languages</h2>
-    <p>English, Hindi, Malayalam</p>
-  </section>
+  <footer>
+    &copy; 2025 Aryaputhran GS — Built with HTML, CSS & ❤️ | <span id="footerConsole"></span>
+  </footer>
+
+  <script>
+    const phrases = [
+      'npm start...',
+      'Compiling microservices...',
+      'Pushing code to prod 💥',
+      'Initializing .NET Core app...',
+      'Loading Aryaputhran.gs.dev()',
+      'Building scalable systems 🏗️',
+      'Event-driven logic online ✅',
+    ];
+    let counter = 0;
+    function rotateConsole() {
+      const consoleEl = document.getElementById("console");
+      const footerConsole = document.getElementById("footerConsole");
+      consoleEl.textContent = phrases[counter % phrases.length];
+      footerConsole.textContent = phrases[(counter + 1) % phrases.length];
+      counter++;
+    }
+    setInterval(rotateConsole, 2500);
+    rotateConsole();
+  </script>
 </body>
 </html>
